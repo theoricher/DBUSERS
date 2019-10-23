@@ -29,7 +29,10 @@ Please refer to the General Public Licence http://www.gnu.org/ or LiCENSE.MD
 	$tab_options['table_name']=$table_name;
 	echo open_form($form_name);
 	$list_fields=array(
-		'name' => 'name'
+		'name' => 'name',
+		'create_date' => 'create_date',
+		'modified_date' => 'modified_date',
+		'default_database_name' => 'default_database_name'
 	);
 	$list_col_cant_del=$list_fields;
 	$default_fields= $list_fields;
