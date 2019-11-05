@@ -30,9 +30,7 @@ Please refer to the General Public Licence http://www.gnu.org/ or LiCENSE.MD
 	echo open_form($form_name);
 	$list_fields=array(
 		'name' => 'name',
-		'create_date' => 'create_date',
-		'modified_date' => 'modified_date',
-		'default_database_name' => 'default_database_name'
+		'is_disabled' => 'is_disabled'
 	);
 	$list_col_cant_del=$list_fields;
 	$default_fields= $list_fields;

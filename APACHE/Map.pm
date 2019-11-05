@@ -25,9 +25,7 @@ cache => 0,
 mandatory => 1,
 fields => {
      NAME => {},
-	   CREATE_DATE => {},
-     MODIFY_DATE => {},
-	   DEFAULT_DATABASE_NAME => {},
+	   IS_DISABLED => {},
 }
 
 };

@@ -17,9 +17,6 @@ $object -> sql_query("CREATE TABLE `dbusers` (
    `ID`                           INT(11)      NOT NULL AUTO_INCREMENT,
    `HARDWARE_ID`                  INT(11)      NOT NULL,
    `NAME`                         VARCHAR(255)     NULL DEFAULT NULL,
-   `CREATE_DATE`                  VARCHAR(255)     NULL DEFAULT NULL,
-   `MODIFIED_DATE`                VARCHAR(255)     NULL DEFAULT NULL,
-   `DEFAULT_DATABASE_NAME`        VARCHAR(255)     NULL DEFAULT NULL,
    PRIMARY KEY (`HARDWARE_ID`, `ID`),
    INDEX `NAME` (`NAME`),
    INDEX `ID` (`ID`)
